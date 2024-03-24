@@ -88,9 +88,16 @@ const ServicesSection = () => {
       },
     },
   ];
+
+  const imgArray = [
+    "/images/image1.png",
+    "/images/image2.png",
+    "/images/image3.png",
+    "/images/image4.png",
+  ];
   return (
     <div
-      className={`relative bg-[url('/images/banner2.svg')] bg-cover bg-center min-h-[70rem] z-30`}
+      className={`relative bg-[url('/images/banner2.svg')] bg-cover bg-center min-h-[75rem] z-30`}
     >
       <div className="absolute inset-0 w-full h-full bg-primary-dark opacity-85 -z-10">
         <div className="flex flex-col py-[4.5rem] items-center  h-full w-full px-[4rem] lg:px-[7.5rem] z-50 ">
@@ -128,6 +135,13 @@ const ServicesSection = () => {
                     {service?.link?.link_name} {service?.link?.linkIcon}
                   </Link>
                 </div>
+              </div>
+            ))}
+          </div>
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 items-center  mt-[2.625rem] ">
+            {imgArray?.map((img, idx: number) => (
+              <div className="" key={idx}>
+                <img src={img} alt="img" />
               </div>
             ))}
           </div>
