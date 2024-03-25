@@ -9,7 +9,7 @@ const page = () => {
     >
       <Header />
       <div className="my-auto">
-        <p>lorem4000</p>
+        <p>about</p>
       </div>
       <div className="mt-auto">
         <Footer />
