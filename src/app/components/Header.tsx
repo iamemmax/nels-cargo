@@ -39,7 +39,7 @@ const Header = () => {
   const [isMobileOpen, setIsMobileOpen] = useState(false);
 
   return (
-    <div className="bg-button-color w-full h-[6rem] px-[4rem] lg:px-[7.5rem] flex items-center justify-between relative">
+    <div className="bg-button-color w-full h-[6rem] px-[3rem] lg:px-[7.5rem] flex items-center justify-between relative">
       <Link href={"/"} className=" flex flex-1 items-center ">
         <LogoWhite />
       </Link>
@@ -48,9 +48,8 @@ const Header = () => {
           {navigation?.map((nav, idx: number) => (
             <Link
               href={nav?.link}
-              className={`uppercase font-header text-text-black font-medium text-sm hover:text-white transition-colors ease-in-out delay-200 ${
-                activeLink === nav?.link ? "text-white" : ""
-              }`}
+              className={`uppercase font-header text-text-black font-medium text-sm hover:text-white transition-colors ease-in-out delay-200 ${activeLink === nav?.link ? "text-white" : ""
+                }`}
               key={idx}
             >
               {nav?.title}
@@ -87,9 +86,8 @@ const Header = () => {
               {navigation?.map((nav, idx: number) => (
                 <Link
                   href={nav?.link}
-                  className={`uppercase font-header text-text-black   font-medium text-sm hover:text-white transition-colors ease-in-out delay-200 ${
-                    activeLink === nav?.link ? "text-white" : ""
-                  }`}
+                  className={`uppercase font-header text-text-black   font-medium text-sm hover:text-white transition-colors ease-in-out delay-200 ${activeLink === nav?.link ? "text-white" : ""
+                    }`}
                   key={idx}
                   onClick={() => setIsMobileOpen(false)}
                 >

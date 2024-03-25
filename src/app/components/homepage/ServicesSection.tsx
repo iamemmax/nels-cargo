@@ -96,16 +96,14 @@ const ServicesSection = () => {
     "/images/image4.png",
   ];
   return (
-    <div
-      className={`relative bg-[url('/images/banner2.svg')] bg-cover bg-center min-h-[75rem] z-30`}
-    >
+    <div className={`relative bg-[url('/images/banner2.svg')] bg-cover bg-center min-h-[77rem] z-30 bg-repeat`}>
       <div className="absolute inset-0 w-full h-full bg-primary-dark opacity-85 -z-10">
-        <div className="flex flex-col py-[4.5rem] items-center  h-full w-full px-[4rem] lg:px-[7.5rem] z-50 ">
+        <div className="flex flex-col py-[4.5rem] items-center h-full w-full px-[3rem] lg:px-[7.5rem] z-50 ">
           <div className="flex flex-col justify-center items-center w-full ">
-            <p className="uppercase font-header font-medium text-[2rem] text-white text-opacity-55">
+            <p className="uppercase font-header font-medium text-[2rem] text-white text-opacity-90">
               OUR services
             </p>
-            <h2 className="text-white font-header font-bold text-[2rem] leading-[2.5rem] text-center uppercase w-[95%] lg:w-[65%]">
+            <h2 className="text-white font-header font-bold text-[3rem] leading-[3.9rem] text-center uppercase w-[95%] lg:w-[65%]">
               efficient and reliable shipping with NELS CARGO & LOGISITCS
             </h2>
             {/* <HeaderText className="text-red-600">
@@ -120,10 +118,10 @@ const ServicesSection = () => {
               >
                 <div className="">{service?.icon}</div>
                 <div className="">
-                  <h2 className="font-header text-[1.3rem] font-bold">
+                  <h2 className="font-header text-[1.5625rem] font-bold">
                     {service?.title}
                   </h2>
-                  <p className="font-body mt-2 text-sm text-text-black ">
+                  <p className="font-body mt-2 text-base text-text-black ">
                     {service?.description}
                   </p>
                 </div>
@@ -138,10 +136,10 @@ const ServicesSection = () => {
               </div>
             ))}
           </div>
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 items-center  mt-[2.625rem] ">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 items-center w-full  mt-[2.625rem] ">
             {imgArray?.map((img, idx: number) => (
-              <div className="" key={idx}>
-                <img src={img} alt="img" />
+              <div className="w-full" key={idx}>
+                <img src={img} alt="img" style={{ width: "100%", height: "100%" }} />
               </div>
             ))}
           </div>

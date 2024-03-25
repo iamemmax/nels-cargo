@@ -4,7 +4,7 @@ import ExperienceIcon from "../icons/Experienceicon";
 
 const AboutSection = () => {
   return (
-    <div className="px-[4rem] lg:px-[7.5rem] py-[4.5rem] ">
+    <div className="px-[3rem] lg:px-[7.5rem] py-[4.5rem] ">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-[2.5625rem] items-center">
         <div className="flex flex-col ">
           <div className="">
@@ -12,7 +12,7 @@ const AboutSection = () => {
           </div>{" "}
           <div className="">
             {" "}
-            <h3 className="font-bold font-header leading-[3.8rem] text-[2.2rem]">
+            <h3 className="font-bold font-header leading-[3.9rem] text-[3rem]">
               EMPOWERING YOUR BUSINESS WITH TAILORED LOGISTICS SOLUTIONS
             </h3>
           </div>
@@ -36,11 +36,11 @@ const AboutSection = () => {
             <p className="font-header text-white font-bold text-[5rem] leading-[5rem]">
               NELS
             </p>
-            <p className="font-header text-[1.625rem] text-white">
+            <p className="font-header text-[1.5rem] md:text-[2.625rem] text-white">
               CARGO & SERVICES
             </p>
           </div>
-          <div className="grid grid-cols-2 mt-[2.0625rem] gap-[1.8125rem] w-full ">
+          <div className="grid grid-cols-1 md:grid-cols-2 mt-[2.0625rem] gap-[1.8125rem] w-full ">
             <div className="bg-white rounded-lg p-[.625rem] relative ">
               <div className="absolute top-[-2rem] w-full  left-0 flex items-center justify-center">
                 <UserIcon />
@@ -75,18 +75,18 @@ const AboutSection = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 xl:gap-5 mt-16">
-        <div className="bg-[#F7F7F7] rounded-xl py-[3rem] px-[2.5rem] flex items-center gap-5 font-header font-bold text-[1.4rem] uppercase">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 xl:gap-5 mt-16">
+        <div className="bg-[#F7F7F7] rounded-xl py-[3rem] px-[1.5rem] xl:px-[2.5rem] flex items-center gap-5 font-header font-bold text-[1.4rem] uppercase">
           <h5 className="text-[3rem]">01</h5>
-          <h5 className="leading-[2.0313rem]">Expertise and Experience</h5>
+          <h5 className="leading-[2.0313rem] text-[1.5625rem] font-bold font-header">Expertise and Experience</h5>
         </div>
         <div className="bg-[#F7F7F7] rounded-xl py-[3rem] px-[2.5rem] flex items-center gap-8  font-header font-bold text-[1.5625rem] uppercase">
           <h5 className="text-[3rem]">02</h5>
-          <h5 className="leading-[2.0313rem]">Committed to Quality</h5>
+          <h5 className="leading-[2.0313rem] text-[1.5625rem] font-bold font-header">Committed to Quality</h5>
         </div>
         <div className="bg-[#F7F7F7] rounded-xl py-[3rem] px-[2.5rem] flex items-center gap-8 font-header font-bold text-[1.5625rem] uppercase">
           <h5 className="text-[3rem]">03</h5>
-          <h5 className="leading-[2.0313rem]">Committed to Quality</h5>
+          <h5 className="leading-[2.0313rem] text-[1.5625rem] font-bold font-header">Committed to Quality</h5>
         </div>
       </div>
     </div>
