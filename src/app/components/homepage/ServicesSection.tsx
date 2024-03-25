@@ -96,8 +96,10 @@ const ServicesSection = () => {
     "/images/image4.png",
   ];
   return (
-    <div className={`relative bg-[url('/images/banner2.svg')] bg-cover bg-center min-h-[77rem] z-30 bg-repeat`}>
-      <div className="absolute inset-0 w-full h-full bg-primary-dark opacity-85 -z-10">
+    <div
+      className={`relative bg-[url('/images/banner2.svg')] bg-cover bg-center min-h-[77rem] z-30 `}
+    >
+      <div className=" bg-primary-dark opacity-90 -z-10">
         <div className="flex flex-col py-[4.5rem] items-center h-full w-full px-[3rem] lg:px-[7.5rem] z-50 ">
           <div className="flex flex-col justify-center items-center w-full ">
             <p className="uppercase font-header font-medium text-[2rem] text-white text-opacity-90">
@@ -139,7 +141,11 @@ const ServicesSection = () => {
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 items-center w-full  mt-[2.625rem] ">
             {imgArray?.map((img, idx: number) => (
               <div className="w-full" key={idx}>
-                <img src={img} alt="img" style={{ width: "100%", height: "100%" }} />
+                <img
+                  src={img}
+                  alt="img"
+                  style={{ width: "100%", height: "100%" }}
+                />
               </div>
             ))}
           </div>
