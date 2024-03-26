@@ -39,7 +39,7 @@ const Header = () => {
   const [isMobileOpen, setIsMobileOpen] = useState(false);
 
   return (
-    <div className="bg-button-color w-full h-[6rem] px-[3rem] lg:px-[7.5rem] flex items-center justify-between relative">
+    <div className="bg-button-color w-full h-[6rem] px-4 sm:px-[3rem] lg:px-[7.5rem] flex items-center justify-between relative">
       <Link href={"/"} className=" flex flex-1 items-center ">
         <LogoWhite />
       </Link>

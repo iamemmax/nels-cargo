@@ -8,7 +8,7 @@ const HeroSection = () => {
       <div className="absolute inset-0">
         {/* Linear gradient overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-transparent to-primary-dark -z-10">
-          <div className="flex flex-col justify-center gap-6  h-full w-full lg:w-[70%] px-[3rem] lg:px-[7.5rem] z-[99999999] ">
+          <div className="flex flex-col justify-center gap-6  h-full w-full lg:w-[70%] px-4 sm:px-[3rem] lg:px-[7.5rem] z-[99999999] ">
             <div className="">
               <p className="font-header font-medium text-white text-base uppercase text-opacity-90">
                 we are the best cargo & logistic company

@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const TestimonialSection = () => {
     return (
-        <div className="px-[3rem] lg:px-[7.5rem] py-[4.5rem] ">
+        <div className="px-4 sm:px-[3rem] lg:px-[7.5rem] py-[4.5rem] ">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-[2.5625rem] items-center">
                 <div className="flex flex-col ">
                     <div className="">

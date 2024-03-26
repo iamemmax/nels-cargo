@@ -100,7 +100,7 @@ const ServicesSection = () => {
       className={`relative bg-[url('/images/banner2.svg')] bg-cover bg-center min-h-[77rem] z-30 `}
     >
       <div className=" bg-primary-dark opacity-90 -z-10">
-        <div className="flex flex-col py-[4.5rem] items-center h-full w-full px-[3rem] lg:px-[7.5rem] z-50 ">
+        <div className="flex flex-col py-[4.5rem] items-center h-full w-full px-4 sm:px-[3rem] lg:px-[7.5rem] z-50 ">
           <div className="flex flex-col justify-center items-center w-full ">
             <p className="uppercase font-header font-medium text-[2rem] text-white text-opacity-90">
               OUR services

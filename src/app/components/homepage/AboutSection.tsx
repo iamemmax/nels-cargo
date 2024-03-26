@@ -4,7 +4,7 @@ import ExperienceIcon from "../icons/Experienceicon";
 
 const AboutSection = () => {
   return (
-    <div className="px-[3rem] lg:px-[7.5rem] py-[4.5rem] ">
+    <div className="px-4 sm:px-[3rem] lg:px-[7.5rem] py-[4.5rem] ">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-[2.5625rem] items-center">
         <div className="flex flex-col ">
           <div className="">
@@ -76,15 +76,15 @@ const AboutSection = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 xl:gap-5 mt-16">
-        <div className="bg-[#F7F7F7] rounded-xl py-[3rem] px-[1.5rem] xl:px-[2.5rem] flex items-center gap-5 font-header font-bold text-[1.4rem] uppercase">
+        <div className="bg-[#F7F7F7] rounded-xl py-[3rem] px-[1.5rem] xl:px-[2.5rem] flex flex-col sm:flex-row  text-center sm:text-left items-center gap-5 font-header font-bold text-[1.4rem] uppercase">
           <h5 className="text-[3rem]">01</h5>
           <h5 className="leading-[2.0313rem] text-[1.5625rem] font-bold font-header">Expertise and Experience</h5>
         </div>
-        <div className="bg-[#F7F7F7] rounded-xl py-[3rem] px-[2.5rem] flex items-center gap-8  font-header font-bold text-[1.5625rem] uppercase">
+        <div className="bg-[#F7F7F7] rounded-xl py-[3rem] px-[2.5rem] flex flex-col sm:flex-row text-center sm:text-left items-center gap-8   font-header font-bold text-[1.5625rem] uppercase">
           <h5 className="text-[3rem]">02</h5>
           <h5 className="leading-[2.0313rem] text-[1.5625rem] font-bold font-header">Committed to Quality</h5>
         </div>
-        <div className="bg-[#F7F7F7] rounded-xl py-[3rem] px-[2.5rem] flex items-center gap-8 font-header font-bold text-[1.5625rem] uppercase">
+        <div className="bg-[#F7F7F7] rounded-xl py-[3rem] px-[2.5rem] flex flex-col sm:flex-row text-center sm:text-left items-center gap-8 font-header  font-bold text-[1.5625rem] uppercase">
           <h5 className="text-[3rem]">03</h5>
           <h5 className="leading-[2.0313rem] text-[1.5625rem] font-bold font-header">Committed to Quality</h5>
         </div>
